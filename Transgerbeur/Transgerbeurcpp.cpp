@@ -29,11 +29,17 @@ int main() {
 	casier[0] = c1;
 	casier[2] = c2;
 
+	cout << "le taille de ro1: " << sizeof(ro1) <<endl;
+	cout << "le taille de pa1: " << sizeof(pa1) << endl;
+	cout << "le taille de etatC1: " << sizeof(etatC1) << endl;
+	cout << "le taille de cont: " << sizeof(cont) << endl;
+	cout << "le taille de c1: " << sizeof(c1) << endl;
+	cout << "le taille de c2: " << sizeof(c2) << endl;
+	cout << "le taille de casier: " << sizeof(casier) << endl;
 
 
 
 
-	
 
 
 
@@ -41,8 +47,5 @@ int main() {
 
 
 
-
-
-
-	return;
+	 return 0;
 }
