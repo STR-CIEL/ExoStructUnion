@@ -3,10 +3,7 @@
 #include <iostream>
 
 
-struct SCasier {
-	int px;
-	int py;
-};
+
 enum EEtat {
 	vide, palette, rouleau
 };
@@ -25,9 +22,11 @@ union contenu {
 	SRouleau rouleau;
 };
 
-
-struct SEnCasier {
-
-	
+struct SCasier {
+	int px;
+	int py;
+	SPalette palette;
+	SRouleau rouleau;
 
 };
+
